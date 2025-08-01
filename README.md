@@ -27,19 +27,25 @@ To install it through Greasy Fork, navigate to the script's page and then click 
 You can install the script the old-fashioned way if you want. I've always done it this way:
 
 1. Pull up the script's source code: [script.js](https://raw.githubusercontent.com/logiclrd/GitHubForkDefault/refs/heads/main/script.js?raw=1)
+
 2. Copy it to the clipboard.
+
 3. Click on the TamperMonkey extension's icon and click on "Create a new script..."
 
     <img width="441" height="543" alt="image" src="https://github.com/user-attachments/assets/54c66a55-a892-4eac-915a-429b932649e6" />
 
 4. Paste the script text into the Editor.
+
 5. Press Ctrl+S to save.
+
 6. Refresh any tab where you want it to be active.
 
 ## Uninstalling
 
 1. Click on the TamperMonkey extension's icon and click on "Dashboard".
+
 2. In the "Installed Userscripts" tab, locate "GitHub Fork Default".
+
 3. Click on the little trash can icon at the far right of the row to uninstall it.
 
 It is also possible to temporarily disable it if you need.
