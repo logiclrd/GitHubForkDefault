@@ -18,6 +18,8 @@ As shown here, simply specify your repositories in the format "USERNAME/REPONAME
 
 This script is hosted on Greasy Fork.
 
+https://greasyfork.org/en/scripts/544320-github-fork-default
+
 To install it through Greasy Fork, navigate to the script's page and then click on the green "Install this script" button.
 
 ### Manual Installation

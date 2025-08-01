@@ -6,6 +6,7 @@
 // @author       You
 // @match        *://*/*
 // @icon         https://github.com/logiclrd/GitHubForkDefault/blob/main/PRIcon.png?raw=true
+// @license      MIT
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.js
 // @grant        GM_getValue
 // @grant        GM_setValue
