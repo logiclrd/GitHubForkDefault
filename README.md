@@ -44,6 +44,10 @@ You can install the script the old-fashioned way if you want. I've always done i
 
 It is also possible to temporarily disable it if you need.
 
+## Why is it active on all pages?
+
+The functionality of disabling the redirect when you click Back, if you really do want an upstream PR, depends on knowing what URL the tab came _from_. This script matches every URL so that it can stash the URL in TamperMonkey's per-tab data, so that when you click Back, it knows whether you were on the Create Pull Request page it sent you to or not.
+
 ## Contributing
 
 Source code is in GitHub:
