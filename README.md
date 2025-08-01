@@ -24,7 +24,7 @@ To install it through Greasy Fork, navigate to the script's page and then click 
 
 ### Manual Installation
 
-You can install the script the old-fashioned way if you want. I've always done in this way:
+You can install the script the old-fashioned way if you want. I've always done it this way:
 
 1. Pull up the script's source code: [script.js](https://raw.githubusercontent.com/logiclrd/GitHubForkDefault/refs/heads/main/script.js?raw=1)
 2. Copy it to the clipboard.
