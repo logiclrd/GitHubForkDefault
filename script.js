@@ -110,8 +110,14 @@
         [operation, path] = pullComponent(path, '/');
         [baseBranch, path] = pullComponent(path, '...');
         [headOwner, path] = pullComponent(path, ':');
-        [headRepo, path] = pullComponent(path, ':');
-        [headBranch, path] = [path, ''];
+
+        if (path.indexOf(':') < 0)
+            [headRepo, headBranch, path] = [baseRepo, path, ''];
+        else
+        {
+            [headRepo, path] = pullComponent(path, ':');
+            [headBranch, path] = [path, ''];
+        }
 
         if (operation !== "compare")
             return null;
