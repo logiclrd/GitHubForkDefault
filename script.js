@@ -133,7 +133,8 @@
                     Owner: headOwner,
                     Repo: headRepo,
                     Branch: headBranch
-                }
+                },
+                Params: url.search
             };
 
         return decoded;
@@ -141,7 +142,7 @@
 
     function encodePullRequestURL(pr)
     {
-        return `https://github.com/${pr.Base.Owner}/${pr.Base.Repo}/compare/${pr.Base.Branch}...${pr.Head.Owner}:${pr.Head.Repo}:${pr.Head.Branch}`;
+        return `https://github.com/${pr.Base.Owner}/${pr.Base.Repo}/compare/${pr.Base.Branch}...${pr.Head.Owner}:${pr.Head.Repo}:${pr.Head.Branch}${pr.Params}`;
     }
 
     function isPullRequestURL(url)
